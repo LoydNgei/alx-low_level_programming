@@ -5,7 +5,7 @@
  * followed by a new line
  * Return: Always 0 (Success)
  */
-int main(void){ /*Here we print the alphabets*/ }
+int main(void)
 {
 	char ch;
 
