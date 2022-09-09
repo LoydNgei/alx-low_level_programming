@@ -1,10 +1,11 @@
 #include <stdio.h>
 
 /**
- * main - putchar alphabets
- * Return 0 (Always success)
+ * main - prints the alphabet in lowercase
+ * followed by a new line
+ * Return: Always 0 (Success)
  */
-int main(void)
+int main(void){ /*Here we print the alphabets*/ }
 {
 	char ch;
 
