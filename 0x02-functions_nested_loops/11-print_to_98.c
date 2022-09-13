@@ -5,7 +5,7 @@
  * followed by a new line
  * @n: integer to be checked
  */
-void print_to_98(int n);
+void print_to_98(int n)
 {
 	int i, j;
 
