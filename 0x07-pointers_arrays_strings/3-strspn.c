@@ -1,8 +1,9 @@
 #include "main.h"
 
 /**
- * _strspn - gets the length of a prefix substring
+ * *_strspn - gets the length of a prefix substring
  * @s: where bytes are stored
+ * @accept: string containing the list of characters to match in s
  * Return: the numbers of bytes in the initial segment of s
  * which consist only of bytes from accept
  */
