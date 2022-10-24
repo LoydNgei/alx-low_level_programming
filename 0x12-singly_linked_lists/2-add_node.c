@@ -3,7 +3,7 @@
 #include "lists.h"
 
 /**
- * add_note - adds a new node at the beginningof list
+ * add_node - adds a new node at the beginningof list
  * @head - double pointer to the list_t list
  * @str - new string to add in the node
  * Return: The address of the new element
