@@ -1,5 +1,5 @@
 This is the first sprint of my Software engineering journey @ALX. We solely focused on C language for 3 months.
-We extensively learnt the dynamism and functionality of C language. The following are hands on projects that we were assigned at the end of each topic.
+We extensively learnt the dynamism and functionality of C language. These are hands on projects that we were assigned at the end of each topic.
 This is what I learnt: 
 
   1. C variables - Containers for storing data
