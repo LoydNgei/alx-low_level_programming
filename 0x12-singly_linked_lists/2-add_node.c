@@ -3,12 +3,12 @@
 #include "lists.h"
 
 /**
- * add_node - adds a new node at the beginningof list
- * @head: double pointer to the list_t list
- * @str: new string to add in the node
- * Return: The address of the new element
+ * add_node - adds a new node at the beginning of list
+ * @head: A pointer to the head of the list_t list
+ * @str: The string to be added to the list_t list
+ * Return: NULL if the function fails otherwise, the address of the new element
  */
-list_t *add_note(list_t **head, const char *str)
+list_t *add_node(list_t **head, const char *str)
 {
 	list_t *new;
 	unsigned int len = 0;
