@@ -6,7 +6,7 @@
  * @n: int to be inserted
  * Return: address of the new element, NULL if it fails
  */
-dlistint_t *add_dnodeint_end(dlistint_t **head, const int n);
+dlistint_t *add_dnodeint_end(dlistint_t **head, const int n)
 {
 	dlistint_t *new, *last;
 
