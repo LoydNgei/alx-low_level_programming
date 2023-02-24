@@ -5,9 +5,9 @@ OBJ = $(SRC:.c=.o)
 RM = rm -f
 CFLAGS = -Wall -Werror -Wextra -pedantic
 all: $(OBJ)
-	$(CC) $(CFLAGS) -g $(OBJ) -o $(NAME)
+	$(CC) $(CFLAGS) $(OBJ) -o $(NAME)
 clean:
-	$(RM) *~*.swp $(NAME)
+	$(RM) *~ *.swp $(NAME)
 oclean:
 	$(RM) $(OBJ)
 fclean: clean oclean
