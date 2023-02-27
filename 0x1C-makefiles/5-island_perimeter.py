@@ -1,6 +1,8 @@
 #!/usr/bin/python3
+"""Find the perimeter of an island"""
 
 def island_perimeter(grid):
+    """Return perimeter of the island described in grid"""
     length_row = len(grid)
     length_column = len(grid[0])
 
